@@ -1,4 +1,20 @@
 {
+  "AC16962310": {
+    "contest_id": "abc049",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc049/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Thin",
+    "problem_url": "https://atcoder.jp/contests/abc049/tasks/abc049_b",
+    "submission_id": "AC16962310",
+    "submission_url": "https://atcoder.jp/contests/abc049/submissions/16962310",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/22/2020 23:20"
+  },
   "AC16962517": {
     "contest_id": "abc045",
     "language": "C++ (GCC 9.2.1)",
