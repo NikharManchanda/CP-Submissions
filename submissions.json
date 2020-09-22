@@ -1,4 +1,20 @@
 {
+  "AC16961679": {
+    "contest_id": "abc044",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc044/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Beautiful Strings",
+    "problem_url": "https://atcoder.jp/contests/abc044/tasks/abc044_b",
+    "submission_id": "AC16961679",
+    "submission_url": "https://atcoder.jp/contests/abc044/submissions/16961679",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/22/2020 22:02"
+  },
   "AC16961760": {
     "contest_id": "abc046",
     "language": "C++ (GCC 9.2.1)",
