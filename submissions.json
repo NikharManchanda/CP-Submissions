@@ -1,4 +1,20 @@
 {
+  "AC16979481": {
+    "contest_id": "abc055",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc055/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Training Camp",
+    "problem_url": "https://atcoder.jp/contests/abc055/tasks/abc055_b",
+    "submission_id": "AC16979481",
+    "submission_url": "https://atcoder.jp/contests/abc055/submissions/16979481",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/24/2020 02:55"
+  },
   "AC16979575": {
     "contest_id": "abc061",
     "language": "C++ (GCC 9.2.1)",
