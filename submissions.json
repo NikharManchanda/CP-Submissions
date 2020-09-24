@@ -1,4 +1,20 @@
 {
+  "AC16994416": {
+    "contest_id": "abc117",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc117/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Polygon",
+    "problem_url": "https://atcoder.jp/contests/abc117/tasks/abc117_b",
+    "submission_id": "AC16994416",
+    "submission_url": "https://atcoder.jp/contests/abc117/submissions/16994416",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/25/2020 00:22"
+  },
   "AC16994520": {
     "contest_id": "abc114",
     "language": "C++ (GCC 9.2.1)",
