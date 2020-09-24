@@ -1,4 +1,20 @@
 {
+  "AC16994628": {
+    "contest_id": "abc122",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc122/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "ATCoder",
+    "problem_url": "https://atcoder.jp/contests/abc122/tasks/abc122_b",
+    "submission_id": "AC16994628",
+    "submission_url": "https://atcoder.jp/contests/abc122/submissions/16994628",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/25/2020 01:16"
+  },
   "AC16994680": {
     "contest_id": "abc135",
     "language": "C++ (GCC 9.2.1)",
