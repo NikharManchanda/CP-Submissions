@@ -1,4 +1,20 @@
 {
+  "AC16993869": {
+    "contest_id": "abc160",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc160/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Golden Coins",
+    "problem_url": "https://atcoder.jp/contests/abc160/tasks/abc160_b",
+    "submission_id": "AC16993869",
+    "submission_url": "https://atcoder.jp/contests/abc160/submissions/16993869",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/24/2020 22:45"
+  },
   "AC16993946": {
     "contest_id": "abc155",
     "language": "C++ (GCC 9.2.1)",
