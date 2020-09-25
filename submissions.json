@@ -1,4 +1,20 @@
 {
+  "AC17008417": {
+    "contest_id": "abc124",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc124/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Great Ocean View",
+    "problem_url": "https://atcoder.jp/contests/abc124/tasks/abc124_b",
+    "submission_id": "AC17008417",
+    "submission_url": "https://atcoder.jp/contests/abc124/submissions/17008417",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/25/2020 21:56"
+  },
   "AC17008497": {
     "contest_id": "abc080",
     "language": "C++ (GCC 9.2.1)",
