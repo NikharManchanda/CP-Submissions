@@ -1,4 +1,20 @@
 {
+  "AC17009365": {
+    "contest_id": "abc076",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc076/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Addition and Multiplication",
+    "problem_url": "https://atcoder.jp/contests/abc076/tasks/abc076_b",
+    "submission_id": "AC17009365",
+    "submission_url": "https://atcoder.jp/contests/abc076/submissions/17009365",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 00:06"
+  },
   "AC17009531": {
     "contest_id": "abc073",
     "language": "C++ (GCC 9.2.1)",
