@@ -1,4 +1,20 @@
 {
+  "AC17007044": {
+    "contest_id": "abc069",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc069/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "i18n",
+    "problem_url": "https://atcoder.jp/contests/abc069/tasks/abc069_b",
+    "submission_id": "AC17007044",
+    "submission_url": "https://atcoder.jp/contests/abc069/submissions/17007044",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/25/2020 20:18"
+  },
   "AC17007328": {
     "contest_id": "abc070",
     "language": "C++ (GCC 9.2.1)",
