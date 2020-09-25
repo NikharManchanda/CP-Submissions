@@ -1,4 +1,20 @@
 {
+  "AC17009726": {
+    "contest_id": "abc119",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc119/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Digital Gifts",
+    "problem_url": "https://atcoder.jp/contests/abc119/tasks/abc119_b",
+    "submission_id": "AC17009726",
+    "submission_url": "https://atcoder.jp/contests/abc119/submissions/17009726",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 01:24"
+  },
   "AC17009770": {
     "contest_id": "abc120",
     "language": "C++ (GCC 9.2.1)",
