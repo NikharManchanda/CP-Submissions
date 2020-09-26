@@ -1,4 +1,20 @@
 {
+  "AC17053614": {
+    "contest_id": "abc095",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc095/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Bitter Alchemy",
+    "problem_url": "https://atcoder.jp/contests/abc095/tasks/abc095_b",
+    "submission_id": "AC17053614",
+    "submission_url": "https://atcoder.jp/contests/abc095/submissions/17053614",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/27/2020 01:01"
+  },
   "AC17053741": {
     "contest_id": "abc094",
     "language": "C++ (GCC 9.2.1)",
