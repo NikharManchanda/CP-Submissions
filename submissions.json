@@ -1,4 +1,20 @@
 {
+  "AC17040603": {
+    "contest_id": "abc104",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder/abc104/B.c",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "AcCepted",
+    "problem_url": "https://atcoder.jp/contests/abc104/tasks/abc104_b",
+    "submission_id": "AC17040603",
+    "submission_url": "https://atcoder.jp/contests/abc104/submissions/17040603",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 18:25"
+  },
   "AC17042790": {
     "contest_id": "abc103",
     "language": "C++ (GCC 9.2.1)",
