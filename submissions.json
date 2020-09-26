@@ -1,4 +1,20 @@
 {
+  "AC17049341": {
+    "contest_id": "abc096",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc096/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Maximum Sum",
+    "problem_url": "https://atcoder.jp/contests/abc096/tasks/abc096_b",
+    "submission_id": "AC17049341",
+    "submission_url": "https://atcoder.jp/contests/abc096/submissions/17049341",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 20:07"
+  },
   "AC17049862": {
     "contest_id": "abc084",
     "language": "C++ (GCC 9.2.1)",
