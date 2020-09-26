@@ -1,4 +1,20 @@
 {
+  "AC17053741": {
+    "contest_id": "abc094",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc094/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Toll Gates",
+    "problem_url": "https://atcoder.jp/contests/abc094/tasks/abc094_b",
+    "submission_id": "AC17053741",
+    "submission_url": "https://atcoder.jp/contests/abc094/submissions/17053741",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/27/2020 01:24"
+  },
   "AC17070364": {
     "contest_id": "abc082",
     "language": "C++ (GCC 9.2.1)",
