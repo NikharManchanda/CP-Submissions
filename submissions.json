@@ -1,4 +1,20 @@
 {
+  "AC17032903": {
+    "contest_id": "abc102",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc102/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Maximum Difference",
+    "problem_url": "https://atcoder.jp/contests/abc102/tasks/abc102_b",
+    "submission_id": "AC17032903",
+    "submission_url": "https://atcoder.jp/contests/abc102/submissions/17032903",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 17:47"
+  },
   "AC17040603": {
     "contest_id": "abc104",
     "language": "C (GCC 9.2.1)",
