@@ -1,4 +1,20 @@
 {
+  "AC17018274": {
+    "contest_id": "abc109",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc109/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Shiritori",
+    "problem_url": "https://atcoder.jp/contests/abc109/tasks/abc109_b",
+    "submission_id": "AC17018274",
+    "submission_url": "https://atcoder.jp/contests/abc109/submissions/17018274",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 15:33"
+  },
   "AC17018478": {
     "contest_id": "abc106",
     "language": "C++ (GCC 9.2.1)",
