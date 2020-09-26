@@ -1,4 +1,20 @@
 {
+  "AC17018133": {
+    "contest_id": "abc110",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc110/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "1 Dimensional World's Tale",
+    "problem_url": "https://atcoder.jp/contests/abc110/tasks/abc110_b",
+    "submission_id": "AC17018133",
+    "submission_url": "https://atcoder.jp/contests/abc110/submissions/17018133",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/26/2020 15:24"
+  },
   "AC17018274": {
     "contest_id": "abc109",
     "language": "C++ (GCC 9.2.1)",
