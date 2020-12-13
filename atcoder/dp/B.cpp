@@ -1,55 +1,45 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n;
-int k;
-int arr[100002];
-int dp[100002];
-int fun(int x)
-{
-  if (dp[x] != -1)
-  {
-    return dp[x];
+int dp[100001];
+int mincost(int a[],int idx,int n,int k){
+  
+  if(dp[idx]!=-1){
+    return dp[idx];
   }
 
-  if (x >= n)
-  {
-    return dp[x] = 0;
+  if(idx==0){
+    return dp[idx] = 0;
   }
-  int cmin = INT_MAX;
-  for (int i = 1; i <= k; i++)
-  {
-    if (x + i <= n)
-      cmin = min(cmin, (fun(x + i) + abs(arr[x] - arr[x + i])));
-    else
-      break;
+  else{
+    int cmin=INT_MAX;
+    for(int i=idx-1;i>=0 && i>=idx-k ;i--){
+       cmin=min(cmin,mincost(a,i,n,k) + abs(a[idx]-a[i]) );
+    }
+    return dp[idx]=cmin;
   }
-  return dp[x] = cmin;
-
 
 }
+
 int main()
 {
-  ios_base::sync_with_stdio(false);
-  cin.tie(NULL);
-  /*
-   #ifndef ONLINE_JUDGE
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+     #ifndef ONLINE_JUDGE
+ 
+        freopen("Ip-A.txt","r",stdin);
+        freopen("Op-A.txt","w",stdout);
+ 
+     #endif
+    
+    int n,k;
+    cin>>n>>k;
+    int arr[n];
+    memset(dp,-1,sizeof(dp));
+    for(int i=0;i<n;i++){
+      cin>>arr[i];
+    }
+    
+    cout<<mincost(arr,n-1,n,k)<<endl;
 
-      freopen("Ip-A.txt","r",stdin);
-      freopen("Op-A.txt","w",stdout);
-
-   #endif
-  */
-  cin >> n >> k;
-
-  for (int i = 1; i <= n; i++)
-  {
-    cin >> arr[i];
-  }
-  memset(dp, -1, sizeof(dp));
-
-  cout << fun(1);
-
-
-
-  return 0;
+ return 0;
 }
