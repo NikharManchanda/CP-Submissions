@@ -1,49 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n;
-int W;
-int w[101];
-int v[101];
 long long int dp[101][100001];
-long long int fun(int x, int W)
-{
-  if (dp[x][W] != 0)
-    return dp[x][W];
-  if (x <= 0)
+long long int knap(long long int wt[],long long int v[], long long int w, long long int n){
+  
+  if(dp[n][w]!=0){
+    return dp[n][w];
+  }
+  if(w==0 || n==0){
     return 0;
-
-  if (w[x] > W)
-  {
-    return dp[x][W] = fun(x - 1, W);
   }
-  else
-  {
-    return dp[x][W] = max(fun(x - 1, W), v[x] + fun(x - 1, W - w[x]));
+  if(wt[n-1]>w){
+       return dp[n][w]=knap(wt,v,w,n-1);
   }
-
+  else{
+    return dp[n][w]=max(knap(wt,v,w,n-1) , knap(wt,v,w-wt[n-1],n-1)+v[n-1]);
+  }
 }
+
 int main()
 {
-  ios_base::sync_with_stdio(false);
-  cin.tie(NULL);
-  /*
-   #ifndef ONLINE_JUDGE
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+     #ifndef ONLINE_JUDGE
+ 
+        freopen("Ip-A.txt","r",stdin);
+        freopen("Op-A.txt","w",stdout);
+ 
+     #endif
+    
+    long long int n,w;
+    cin>>n>>w;
+    long long int wt[n],v[n];
+    for(long long int i=0;i<n;i++){
+      cin>>wt[i]>>v[i];
+    }
 
-      freopen("Ip-A.txt","r",stdin);
-      freopen("Op-A.txt","w",stdout);
+    cout<<knap(wt,v,w,n);
 
-   #endif
-  */
-  cin >> n >> W;
-  for (int i = 1; i <= n; i++)
-  {
-    cin >> w[i] >> v[i];
-  }
-  cout << fun(n, W);
-
-
-
-
-
-  return 0;
+ return 0;
 }
