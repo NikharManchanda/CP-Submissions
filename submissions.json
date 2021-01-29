@@ -1,4 +1,22 @@
 {
+  "CF105955779": {
+    "contest_id": 416,
+    "language": "GNU C++11",
+    "path": "codeforces/416/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Guess a number!",
+    "problem_url": "https://codeforces.com/contest/416/problem/A",
+    "submission_id": "CF105955779",
+    "submission_url": "https://codeforces.com/contest/416/submission/105955779",
+    "tags": [
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Jan/30/2021 00:28"
+  },
   "CF105958108": {
     "contest_id": 194,
     "language": "GNU C++11",
