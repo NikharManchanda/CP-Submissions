@@ -1,4 +1,22 @@
 {
+  "CF105951949": {
+    "contest_id": 359,
+    "language": "GNU C++11",
+    "path": "codeforces/359/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Table",
+    "problem_url": "https://codeforces.com/contest/359/problem/A",
+    "submission_id": "CF105951949",
+    "submission_url": "https://codeforces.com/contest/359/submission/105951949",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jan/29/2021 23:45"
+  },
   "CF105955779": {
     "contest_id": 416,
     "language": "GNU C++11",
