@@ -1,4 +1,22 @@
 {
+  "CF106051265": {
+    "contest_id": 103,
+    "language": "GNU C++11",
+    "path": "codeforces/103/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Testing Pants for Sadness",
+    "problem_url": "https://codeforces.com/contest/103/problem/A",
+    "submission_id": "CF106051265",
+    "submission_url": "https://codeforces.com/contest/103/submission/106051265",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jan/31/2021 00:49"
+  },
   "CF106051325": {
     "contest_id": 448,
     "language": "GNU C++11",
