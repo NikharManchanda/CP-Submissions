@@ -1,4 +1,20 @@
 {
+  "CF106033097": {
+    "contest_id": 35,
+    "language": "GNU C++11",
+    "path": "codeforces/35/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shell Game",
+    "problem_url": "https://codeforces.com/contest/35/problem/A",
+    "submission_id": "CF106033097",
+    "submission_url": "https://codeforces.com/contest/35/submission/106033097",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jan/30/2021 20:43"
+  },
   "CF106033927": {
     "contest_id": 31,
     "language": "GNU C++11",
