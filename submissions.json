@@ -1,4 +1,20 @@
 {
+  "CF106917271": {
+    "contest_id": 133,
+    "language": "GNU C++11",
+    "path": "codeforces/133/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Unary",
+    "problem_url": "https://codeforces.com/contest/133/problem/B",
+    "submission_id": "CF106917271",
+    "submission_url": "https://codeforces.com/contest/133/submission/106917271",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/08/2021 20:13"
+  },
   "CF106922308": {
     "contest_id": 1422,
     "language": "GNU C++11",
