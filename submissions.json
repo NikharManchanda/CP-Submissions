@@ -1,4 +1,22 @@
 {
+  "CF107074105": {
+    "contest_id": 758,
+    "language": "GNU C++11",
+    "path": "codeforces/758/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Blown Garland",
+    "problem_url": "https://codeforces.com/contest/758/problem/B",
+    "submission_id": "CF107074105",
+    "submission_url": "https://codeforces.com/contest/758/submission/107074105",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Feb/10/2021 21:34"
+  },
   "CF107080470": {
     "contest_id": 633,
     "language": "GNU C++11",
