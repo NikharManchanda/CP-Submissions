@@ -1,4 +1,21 @@
 {
+  "CF107113417": {
+    "contest_id": 1068,
+    "language": "GNU C++11",
+    "path": "codeforces/1068/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "LCM",
+    "problem_url": "https://codeforces.com/contest/1068/problem/B",
+    "submission_id": "CF107113417",
+    "submission_url": "https://codeforces.com/contest/1068/submission/107113417",
+    "tags": [
+      "math",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Feb/11/2021 14:57"
+  },
   "CF107138915": {
     "contest_id": 1409,
     "language": "GNU C++11",
