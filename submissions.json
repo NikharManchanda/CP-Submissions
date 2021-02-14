@@ -1,4 +1,22 @@
 {
+  "CF107357096": {
+    "contest_id": 626,
+    "language": "GNU C++11",
+    "path": "codeforces/626/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cards",
+    "problem_url": "https://codeforces.com/contest/626/problem/B",
+    "submission_id": "CF107357096",
+    "submission_url": "https://codeforces.com/contest/626/submission/107357096",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Feb/14/2021 22:27"
+  },
   "CF107369882": {
     "contest_id": 489,
     "language": "GNU C++11",
