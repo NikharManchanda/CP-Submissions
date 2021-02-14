@@ -1,4 +1,22 @@
 {
+  "CF107329698": {
+    "contest_id": 665,
+    "language": "GNU C++11",
+    "path": "codeforces/665/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Simple Strings",
+    "problem_url": "https://codeforces.com/contest/665/problem/C",
+    "submission_id": "CF107329698",
+    "submission_url": "https://codeforces.com/contest/665/submission/107329698",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Feb/14/2021 15:25"
+  },
   "CF107332751": {
     "contest_id": 1315,
     "language": "GNU C++11",
