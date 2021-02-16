@@ -1,4 +1,22 @@
 {
+  "CF107589894": {
+    "contest_id": 1490,
+    "language": "GNU C++11",
+    "path": "codeforces/1490/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Permutation Transformation",
+    "problem_url": "https://codeforces.com/contest/1490/problem/D",
+    "submission_id": "CF107589894",
+    "submission_url": "https://codeforces.com/contest/1490/submission/107589894",
+    "tags": [
+      "dfs and similar",
+      "divide and conquer",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Feb/16/2021 21:21"
+  },
   "CF107626225": {
     "contest_id": 1490,
     "language": "GNU C++11",
