@@ -1,4 +1,22 @@
 {
+  "CF107626225": {
+    "contest_id": 1490,
+    "language": "GNU C++11",
+    "path": "codeforces/1490/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Accidental Victory",
+    "problem_url": "https://codeforces.com/contest/1490/problem/E",
+    "submission_id": "CF107626225",
+    "submission_url": "https://codeforces.com/contest/1490/submission/107626225",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Feb/16/2021 22:59"
+  },
   "CF107880752": {
     "contest_id": 1490,
     "language": "GNU C++11",
