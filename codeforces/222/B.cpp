@@ -135,23 +135,22 @@ int main()
   int c[m];
   for (int i = 0; i < n; i++)
   {
-    // r[i] = i;
+    r[i] = i;
     for (int j = 0; j < m; j++)
     {
-      // c[j] = j;
+      c[j] = j;
       cin >> a[i][j];
     }
   }
 
-  for (int i = 0; i < n; i++)
-  {
-    r[i] = i;
-  }
-  for (int i = 0; i < m; i++)
-  {
-    c[i] = i;
-  }
-
+  // for (int i = 0; i < n; i++)
+  // {
+  //   r[i] = i;
+  // }
+  // for (int i = 0; i < m; i++)
+  // {
+  //   c[i] = i;
+  // }
   for (int i = 1; i <= k; i++)
   {
     char d;
