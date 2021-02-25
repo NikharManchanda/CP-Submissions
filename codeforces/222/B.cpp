@@ -22,7 +22,6 @@ typedef vector<ii> vii;
 typedef map<ll, ll> mi;
 typedef deque<ll> di;
 typedef deque<ii> dii;
-#define endl "\n"
 long long mod = 1000000007;
 const double pi = acos(-1.0);
 /*------------------------------------------------------------------*/
@@ -162,7 +161,7 @@ int main()
     y--;
     if (d == 'g')
     {
-      cout << a[r[x]][c[y]] << endl;
+      cout << a[r[x]][c[y]] << "\n";
     }
     else if (d == 'r')
     {
