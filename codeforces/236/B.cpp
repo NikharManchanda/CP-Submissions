@@ -129,47 +129,47 @@ int main()
   #endif
   */
 
-  ll a, b, c;
-  cin >> a >> b >> c;
-  ll cnt[1000001] = {0};
-  for (ll i = 1; i <= 1000000; i++) {
-    for (ll j = i; j <= 1000000; j += i) {
-      cnt[j]++;
-    }
-  }
-  ll s = 0;
-  ll m = 1073741824;
-  for (ll i = 1; i <= a; i++)
-  {
-    for (ll j = 1; j <= b; j++)
-    {
-      for (ll k = 1; k <= c; k++)
-      {
-
-        s = (s + cnt[i * j * k]) % m;
-      }
-    }
-  }
-  cout << s;
-
-  // int cnt[1000001] = {0};
-  // for (int i = 1; i <= 1000000; i++) {
-  //   for (int j = i; j <= 1000000; j += i) {
+  // ll a, b, c;
+  // cin >> a >> b >> c;
+  // ll cnt[1000001] = {0};
+  // for (ll i = 1; i <= 1000000; i++) {
+  //   for (ll j = i; j <= 1000000; j += i) {
   //     cnt[j]++;
   //   }
   // }
-  // int a, b, c;
-  // cin >> a >> b >> c;
-  // int ans = 0;
-  // for (int i = 1; i <= a; i++) {
-  //   for (int j = 1; j <= b; j++) {
-  //     for (int k = 1; k <= c; k++) {
-  //       ans += cnt[i * j * k];
-  //       ans %= 1073741824;
+  // ll s = 0;
+  // ll m = 1073741824;
+  // for (ll i = 1; i <= a; i++)
+  // {
+  //   for (ll j = 1; j <= b; j++)
+  //   {
+  //     for (ll k = 1; k <= c; k++)
+  //     {
+
+  //       s = (s + cnt[i * j * k]) % m;
   //     }
   //   }
   // }
-  // cout << ans << "\n";
+  // cout << s;
+
+  int cnt[1000001] = {0};
+  for (int i = 1; i <= 1000000; i++) {
+    for (int j = i; j <= 1000000; j += i) {
+      cnt[j]++;
+    }
+  }
+  int a, b, c;
+  cin >> a >> b >> c;
+  int ans = 0;
+  for (int i = 1; i <= a; i++) {
+    for (int j = 1; j <= b; j++) {
+      for (int k = 1; k <= c; k++) {
+        ans += cnt[i * j * k];
+        ans %= 1073741824;
+      }
+    }
+  }
+  cout << ans << "\n";
 
 
 
