@@ -1,4 +1,21 @@
 {
+  "CF108525954": {
+    "contest_id": 254,
+    "language": "GNU C++11",
+    "path": "codeforces/254/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cards with Numbers",
+    "problem_url": "https://codeforces.com/contest/254/problem/A",
+    "submission_id": "CF108525954",
+    "submission_url": "https://codeforces.com/contest/254/submission/108525954",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Feb/26/2021 14:51"
+  },
   "CF108526957": {
     "contest_id": 160,
     "language": "GNU C++11",
