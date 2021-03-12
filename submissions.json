@@ -1,4 +1,20 @@
 {
+  "CF109752475": {
+    "contest_id": 474,
+    "language": "GNU C++11",
+    "path": "codeforces/474/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Keyboard",
+    "problem_url": "https://codeforces.com/contest/474/problem/A",
+    "submission_id": "CF109752475",
+    "submission_url": "https://codeforces.com/contest/474/submission/109752475",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Mar/12/2021 10:48"
+  },
   "CF109753797": {
     "contest_id": 766,
     "language": "GNU C++11",
