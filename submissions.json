@@ -1,4 +1,21 @@
 {
+  "CF109836323": {
+    "contest_id": 225,
+    "language": "GNU C++11",
+    "path": "codeforces/225/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dice Tower",
+    "problem_url": "https://codeforces.com/contest/225/problem/A",
+    "submission_id": "CF109836323",
+    "submission_url": "https://codeforces.com/contest/225/submission/109836323",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Mar/13/2021 12:37"
+  },
   "CF109842684": {
     "contest_id": 218,
     "language": "GNU C++11",
