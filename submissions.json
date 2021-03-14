@@ -1,4 +1,21 @@
 {
+  "CF109972411": {
+    "contest_id": 289,
+    "language": "GNU C++11",
+    "path": "codeforces/289/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Polo the Penguin and Segments ",
+    "problem_url": "https://codeforces.com/contest/289/problem/A",
+    "submission_id": "CF109972411",
+    "submission_url": "https://codeforces.com/contest/289/submission/109972411",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/14/2021 18:17"
+  },
   "CF110119590": {
     "contest_id": 165,
     "language": "GNU C++11",
