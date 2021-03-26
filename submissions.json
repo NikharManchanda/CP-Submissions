@@ -1,4 +1,20 @@
 {
+  "AC21256231": {
+    "contest_id": "abc047",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc047/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Snuke's Coloring 2 (ABC Edit)",
+    "problem_url": "https://atcoder.jp/contests/abc047/tasks/abc047_b",
+    "submission_id": "AC21256231",
+    "submission_url": "https://atcoder.jp/contests/abc047/submissions/21256231",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/26/2021 07:19"
+  },
   "AC21338001": {
     "contest_id": "abc042",
     "language": "C++ (GCC 9.2.1)",
