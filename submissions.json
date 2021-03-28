@@ -1,4 +1,20 @@
 {
+  "AC21338001": {
+    "contest_id": "abc042",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc042/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Iroha's Obsession",
+    "problem_url": "https://atcoder.jp/contests/abc042/tasks/arc058_a",
+    "submission_id": "AC21338001",
+    "submission_url": "https://atcoder.jp/contests/abc042/submissions/21338001",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/28/2021 08:50"
+  },
   "AC21338272": {
     "contest_id": "abc043",
     "language": "C++ (GCC 9.2.1)",
