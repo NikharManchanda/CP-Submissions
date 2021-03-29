@@ -1,4 +1,20 @@
 {
+  "AC21393759": {
+    "contest_id": "abc093",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc093/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Same Integers",
+    "problem_url": "https://atcoder.jp/contests/abc093/tasks/arc094_a",
+    "submission_id": "AC21393759",
+    "submission_url": "https://atcoder.jp/contests/abc093/submissions/21393759",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/30/2021 02:04"
+  },
   "AC21407919": {
     "contest_id": "abc079",
     "language": "C++ (GCC 9.2.1)",
