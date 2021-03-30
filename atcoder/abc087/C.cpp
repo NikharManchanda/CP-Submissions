@@ -118,18 +118,21 @@ bool isPrime(ll n)
 
 /*------------------------------------------------------------------*/
 int a[2][101];
-
+int dp[2][101];
 int n;
 int fun(int i, int j)
 {
-
+  if (dp[i][j] != -1)
+  {
+    return dp[i][j];
+  }
   int y = 0;
   if (j + 1 < n)
     y = fun(i, j + 1);
   int x = 0;
   if (i + 1 < 2)
     x = fun(i + 1, j);
-  return  a[i][j] + max(x, y);
+  return dp[i][j] = a[i][j] + max(x, y);
 }
 signed main()
 {
@@ -138,7 +141,7 @@ signed main()
 
 
   cin >> n;
-
+  memset(dp, -1, sizeof(dp));
   for (int i = 0; i < 2; i++)
   {
     for (int j = 0; j < n; j++)
