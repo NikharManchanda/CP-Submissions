@@ -1,4 +1,20 @@
 {
+  "AC21410485": {
+    "contest_id": "abc083",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc083/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Multiple Gift",
+    "problem_url": "https://atcoder.jp/contests/abc083/tasks/arc088_a",
+    "submission_id": "AC21410485",
+    "submission_url": "https://atcoder.jp/contests/abc083/submissions/21410485",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/30/2021 20:33"
+  },
   "AC21412714": {
     "contest_id": "abc125",
     "language": "C++ (GCC 9.2.1)",
