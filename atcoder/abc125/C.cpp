@@ -1,102 +1,168 @@
-#include "bits/stdc++.h"
+#include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+using namespace __gnu_pbds;
 using namespace std;
-
-#define int               long long
-#define nl                "\n"
-#define pb                push_back
-#define ppb               pop_back
-#define pf                push_front
-#define ppf               pop_front
-#define all(x)            (x).begin(),(x).end()
-#define rall(x)           (x).rbegin(),(x).rend()
-#define uniq(v)           (v).erase(unique(all(v)),(v).end())
-#define sz(x)             (int)((x).size())
-#define fr                first
-#define sc                second
-#define pii               pair<int,int>
-#define rep(i,a,b)        for(int i=a;i<b;i++)
-#define mem1(a)           memset(a,-1,sizeof(a))
-#define mem0(a)           memset(a,0,sizeof(a))
-#define fix(prec)         {cout << setprecision(prec) << fixed;}
-#define lcm(a, b)         ((a) * (b)) / __gcd(a, b)
-#define rev               greater<int>()
-#define Max(x,y,z)        max(x,max(y,z))
-#define Min(x,y,z)        min(x,min(y,z))
-#define imin              INT_MIN
-#define imax              INT_MAX
-#define Yes               cout<<"Yes\n"
-#define No                cout<<"No\n"
-#define YES               cout<<"YES\n"
-#define NO                cout<<"NO\n"
-#define yes               cout<<"yes\n"
-#define no                cout<<"no\n"
-#define show(A) for (auto i: A) cout << i << " "; cout << '\n';
 #define endl "\n"
+#define mp make_pair
+#define pb push_back
+#define lim 200008
+#define all(con) con.begin(),con.end()
+#define rall(con) con.rbegin(),con.rend()
+// typedef tree<ll, null_type, less<ll>, rb_tree_tag,
+//         tree_order_statistics_node_update> is;
+//Indexed Set(is)
+//(idx or we can say order)
+//Declaration -> is p;
+//Returns iterator to the element at idx i -->  p.find_by_order(i);
+//Returns the Value at idx i               --> *p.find_by_order(i);
+//Returns the Index of number x            -->  p.order_of_key(x) ;
+typedef long long ll ;
+typedef pair<ll, ll> ii;
+typedef vector<ll> vi;
+typedef vector<ii> vii;
+typedef map<ll, ll> mi;
+typedef deque<ll> di;
+typedef deque<ii> dii;
+long long mod = 1000000007;
+const double pi = acos(-1.0);
+ll dx[8] {1, 0, -1, 0, 1, -1, 1, -1};
+ll dy[8] {0, 1, 0, -1, -1, 1, 1, -1};
+/*------------------------------------------------------------------*/
 
-using ld = long double;
-using vi = vector < int > ;
-using mi = map < int, int > ;
-using pi = pair < int, int > ;
-
-const double Pi = acos(-1.0);
-const int inf = 1e18 + 1;
-const int M = 1e9 + 7;
-const int MM = 998244353;
-
-const int N = 1e5 + 5;
-
-int dx[8] = {1, 0, -1, 0, 1, 1, -1, -1};
-int dy[8] = {0, 1, 0, -1, -1, 1, 1, -1};
-
-template<typename T, typename T1>T amax(T &a, T1 b) {if (b > a)a = b; return a;}
-template<typename T, typename T1>T amin(T &a, T1 b) {if (b < a)a = b; return a;}
-/*----------------------------------------------------------------------------------------*/
-void setIO(string s)
-{
-  freopen((s + ".in").c_str(), "r", stdin);
-  freopen((s + ".out").c_str(), "w", stdout);
+long long binpow(long long a, long long b, long long m) {
+  a %= m;
+  long long res = 1;
+  while (b > 0) {
+    if (b & 1)
+      res = res * a % m;
+    a = a * a % m;
+    b >>= 1;
+  }
+  return res;
 }
-/*----------------------------------------------------------------------------------------*/
+
+ll C(ll n,   ll k)
+{
+  ll res = 1;
+
+  // Since C(n, k) = C(n, n-k)
+  if (k > n - k)
+    k = n - k;
+
+  // Calculate value of
+  // [n * (n-1) *---* (n-k+1)] / [k * (k-1) *----* 1]
+  for (ll i = 0; i < k; ++i) {
+    res *= (n - i);
+    res /= (i + 1);
+  }
+
+  return res;
+}
+
+ll gcd(ll a, ll b , ll &x , ll &y)
+{
+  if (a == 0)
+  {
+    x = 0;
+    y = 1;
+    return b;
+  }
+
+  ll x1, y1;
+  ll d = gcd(b % a, a, x1, y1);
+  y = x1;
+  x = y1 - (b / a) * x1;
+  return d;
+}
+
+void pfactors(ll n , vector<ll> &R)
+{
+
+  for (ll i = 2; i * i <= n; i++)
+  {
+    if (n % i == 0)
+    {
+      while (n % i == 0)
+      {
+        R.pb(i);
+        n = n / i;
+      }
+    }
+  }
+  if (n > 1)R.pb(n);
+
+  return ;
+}
+
+
+bool isPrime(ll n)
+{
+  // Corner cases
+  if (n <= 1)
+    return false;
+  if (n <= 3)
+    return true;
+
+  // This is checked so that we can skip
+  // middle five numbers in below loop
+  if (n % 2 == 0 || n % 3 == 0)
+    return false;
+
+  for (ll i = 5; i * i <= n; i = i + 6)
+    if (n % i == 0 || n % (i + 2) == 0)
+      return false;
+
+  return true;
+}
+
+
+/*------------------------------------------------------------------*/
 
 signed main()
 {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
-  // setIO("stacking");
 
   int n;
   cin >> n;
-  int a[n + 2];
-  for (int i = 1; i <= n; i++)
+  int a[n];
+  int p[n];
+  int s[n];
+  for (int i = 0; i < n; i++)
   {
     cin >> a[i];
   }
-  int p[n + 2];
-  int s[n + 2];
-  p[1] = a[1];
-  for (int i = 2; i <= n; i++)
+  p[0] = a[0];
+  for (int i = 1; i < n; i++)
   {
-    p[i] = __gcd(p[i - 1], a[i]);
+    p[i] = __gcd(a[i], p[i - 1]);
   }
-  s[n] = a[n];
-  for (int i = n - 1; i >= 1; i--)
+  s[n - 1] = a[n - 1];
+  for (int i = n - 2; i >= 0; i--)
   {
     s[i] = __gcd(s[i + 1], a[i]);
   }
-  int ans = 1;
-  ans = max(ans, s[2]);
-  ans = max(ans, p[n - 1]);
-  for (int i = 2; i <= n - 1; i++)
+  int cmax = 1;
+  for (int i = 0; i < n; i++)
   {
-    int val = __gcd(p[i - 1], s[i + 1]);
-    ans = max(ans, val);
+    if (i == 0)
+    {
+      int x = s[1];
+      cmax = max(cmax, x);
+    }
+    else if (i == n - 1)
+    {
+      int x = p[i - 1]; cmax = max(cmax, x);
+    }
+    else
+    {
+      int x = __gcd(p[i - 1], s[i + 1]); cmax = max(cmax, x);
+    }
   }
-  cout << ans;
-
+  cout << cmax;
 
 
   return 0;
 
 }
-
