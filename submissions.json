@@ -1,4 +1,20 @@
 {
+  "AC21433120": {
+    "contest_id": "abc101",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc101/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Minimization",
+    "problem_url": "https://atcoder.jp/contests/abc101/tasks/arc099_a",
+    "submission_id": "AC21433120",
+    "submission_url": "https://atcoder.jp/contests/abc101/submissions/21433120",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/01/2021 02:52"
+  },
   "AC21456686": {
     "contest_id": "abc090",
     "language": "C++ (GCC 9.2.1)",
