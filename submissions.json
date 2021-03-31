@@ -1,4 +1,20 @@
 {
+  "AC21426288": {
+    "contest_id": "abc106",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc106/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "To Infinity",
+    "problem_url": "https://atcoder.jp/contests/abc106/tasks/abc106_c",
+    "submission_id": "AC21426288",
+    "submission_url": "https://atcoder.jp/contests/abc106/submissions/21426288",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/31/2021 18:03"
+  },
   "AC21426517": {
     "contest_id": "abc103",
     "language": "C++ (GCC 9.2.1)",
