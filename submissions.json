@@ -1,4 +1,20 @@
 {
+  "AC21429727": {
+    "contest_id": "abc073",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc073/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Write and Erase",
+    "problem_url": "https://atcoder.jp/contests/abc073/tasks/abc073_c",
+    "submission_id": "AC21429727",
+    "submission_url": "https://atcoder.jp/contests/abc073/submissions/21429727",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Mar/31/2021 20:23"
+  },
   "AC21430563": {
     "contest_id": "abc060",
     "language": "C++ (GCC 9.2.1)",
