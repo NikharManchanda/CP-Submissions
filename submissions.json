@@ -1,4 +1,20 @@
 {
+  "AC21457493": {
+    "contest_id": "abc094",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc094/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Many Medians",
+    "problem_url": "https://atcoder.jp/contests/abc094/tasks/arc095_a",
+    "submission_id": "AC21457493",
+    "submission_url": "https://atcoder.jp/contests/abc094/submissions/21457493",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/02/2021 12:43"
+  },
   "AC21457662": {
     "contest_id": "abc055",
     "language": "C++ (GCC 9.2.1)",
