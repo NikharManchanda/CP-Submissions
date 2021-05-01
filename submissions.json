@@ -1,4 +1,23 @@
 {
+  "CF114790363": {
+    "contest_id": 525,
+    "language": "GNU C++11",
+    "path": "codeforces/525/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pasha and String",
+    "problem_url": "https://codeforces.com/contest/525/problem/B",
+    "submission_id": "CF114790363",
+    "submission_url": "https://codeforces.com/contest/525/submission/114790363",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "May/01/2021 21:42"
+  },
   "CF114798479": {
     "contest_id": 492,
     "language": "GNU C++11",
