@@ -1,4 +1,21 @@
 {
+  "CF114798479": {
+    "contest_id": 492,
+    "language": "GNU C++11",
+    "path": "codeforces/492/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vanya and Exams",
+    "problem_url": "https://codeforces.com/contest/492/problem/C",
+    "submission_id": "CF114798479",
+    "submission_url": "https://codeforces.com/contest/492/submission/114798479",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "May/01/2021 23:54"
+  },
   "CF115456713": {
     "contest_id": 1520,
     "language": "GNU C++11",
