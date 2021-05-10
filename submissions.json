@@ -1,4 +1,20 @@
 {
+  "CF115869921": {
+    "contest_id": 376,
+    "language": "GNU C++11",
+    "path": "codeforces/376/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "I.O.U.",
+    "problem_url": "https://codeforces.com/contest/376/problem/B",
+    "submission_id": "CF115869921",
+    "submission_url": "https://codeforces.com/contest/376/submission/115869921",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/10/2021 19:24"
+  },
   "CF115877678": {
     "contest_id": 617,
     "language": "GNU C++11",
