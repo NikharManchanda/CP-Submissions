@@ -121,11 +121,18 @@ signed main()
     else
     {
       ll y = (n - 1) * (n - 2) * (n - 3);
-      ll z = (n) * (n - 1) * (n - 3);
-      if (n % 3 != 0)
-        cout << z;
-      else
-        cout << y;
+      for (long long int i = n; i > max((ll)0, n - 100); i--)
+      {
+        for (long long int j = n; j > max((ll)0, n - 100); j--)
+        {
+          for (long long int k = n; k > max((ll)0, n - 100); k--)
+          {
+            ll z = lcm(i, j);
+            y = max(y, lcm(z, k));
+          }
+        }
+      }
+      cout << y;
     }
   }
 
