@@ -1,4 +1,3 @@
-
 /****************************************************************************************************************
                                      ██████╗░░█████╗░██╗░░██╗██╗░░██╗██╗███╗░░██╗
                                      ██╔══██╗██╔══██╗██║░░██║██║░██╔╝██║████╗░██║
@@ -53,7 +52,7 @@ using namespace std;
 #define INF (ll)1e9
 #define EPS 1e-9
 #define mod 1000000007
-#define sz(x) (ll)(x).size()
+#define sz(x) (int)(x).size()
 const double pi = acos(-1.0);
 typedef long long ll;
 typedef pair<ll, ll> pii;
@@ -71,14 +70,16 @@ void setIO(string s)
   freopen((s + ".out").c_str(), "w", stdout);
 }
 /*------------------------------------------------------------------*/
+
 signed main()
 {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
 // #ifndef ONLINE_JUDGE
-//   setIO("outofplace");
+//   setIO("notlast");
 // #endif
+
   int t;
   cin >> t;
   while (t--)
@@ -128,6 +129,7 @@ signed main()
       cout << min(q, min(w, e)) << nl;
     }
   }
+
 
 
   return 0;
