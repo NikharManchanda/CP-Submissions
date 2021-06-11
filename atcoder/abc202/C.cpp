@@ -105,8 +105,8 @@ signed main()
   for (int i = 1; i < n + 1; i++)
   {
     int val = b[c[i]];
-    // if (mp[val] == 0)
-    count += m[val];
+    if (mp[val] == 0)
+      count += m[val];
   }
   cout << count << nl;
 

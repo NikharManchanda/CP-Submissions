@@ -1,4 +1,20 @@
 {
+  "AC23350401": {
+    "contest_id": "abc202",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc202/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Made Up",
+    "problem_url": "https://atcoder.jp/contests/abc202/tasks/abc202_c",
+    "submission_id": "AC23350401",
+    "submission_url": "https://atcoder.jp/contests/abc202/submissions/23350401",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/11/2021 21:10"
+  },
   "AC23350410": {
     "contest_id": "abc202",
     "language": "C++ (GCC 9.2.1)",
