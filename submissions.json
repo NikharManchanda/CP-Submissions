@@ -1,4 +1,23 @@
 {
+  "CF119110576": {
+    "contest_id": 1538,
+    "language": "GNU C++11",
+    "path": "codeforces/1538/G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Gift Set",
+    "problem_url": "https://codeforces.com/contest/1538/problem/G",
+    "submission_id": "CF119110576",
+    "submission_url": "https://codeforces.com/contest/1538/submission/119110576",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "Jun/11/2021 08:54"
+  },
   "CF119172355": {
     "contest_id": 831,
     "language": "GNU C++11",
