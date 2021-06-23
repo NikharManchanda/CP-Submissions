@@ -1,4 +1,21 @@
 {
+  "CF120379856": {
+    "contest_id": 84,
+    "language": "GNU C++17",
+    "path": "codeforces/84/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Toy Army",
+    "problem_url": "https://codeforces.com/contest/84/problem/A",
+    "submission_id": "CF120379856",
+    "submission_url": "https://codeforces.com/contest/84/submission/120379856",
+    "tags": [
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Jun/23/2021 21:05"
+  },
   "CF120390039": {
     "contest_id": 435,
     "language": "GNU C++17",
