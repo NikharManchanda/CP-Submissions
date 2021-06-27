@@ -1,4 +1,22 @@
 {
+  "CF120722419": {
+    "contest_id": 1225,
+    "language": "GNU C++17",
+    "path": "codeforces/1225/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Power Products",
+    "problem_url": "https://codeforces.com/contest/1225/problem/D",
+    "submission_id": "CF120722419",
+    "submission_url": "https://codeforces.com/contest/1225/submission/120722419",
+    "tags": [
+      "hashing",
+      "math",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Jun/27/2021 14:40"
+  },
   "CF120737876": {
     "contest_id": 1536,
     "language": "GNU C++17",
