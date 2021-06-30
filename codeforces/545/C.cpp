@@ -24,13 +24,6 @@ using namespace std;
 #define Min(x,y,z)        min(x,min(y,z))
 #define imin              INT_MIN
 #define imax              INT_MAX
-#define Yes               cout<<"Yes\n"
-#define No                cout<<"No\n"
-#define YES               cout<<"YES\n"
-#define NO                cout<<"NO\n"
-#define yes               cout<<"yes\n"
-#define no                cout<<"no\n"
-
 const double pi = acos(-1.0);
 const long long INF = 1e18;
 const int32_t M = 1e8;
@@ -41,9 +34,12 @@ const int N = 1e5 + 5;
 int dx[8] = {1, 0, -1, 0, 1, 1, -1, -1};
 int dy[8] = {0, 1, 0, -1, -1, 1, 1, -1};
 
+
+
 template<typename T, typename T1>T amax(T &a, T1 b) {if (b > a)a = b; return a;}
 template<typename T, typename T1>T amin(T &a, T1 b) {if (b < a)a = b; return a;}
-/*--------------------------------------------------------------------------------------------------*/
+
+
 void setIO(string s)
 {
   freopen((s + ".in").c_str(), "r", stdin);
@@ -60,38 +56,30 @@ signed main()
 
   int n;
   cin >> n;
-  int x[n + 2], h[n + 2] {0};
+  int x[n + 2], h[n + 2];
   x[0] = imin;
   x[n + 1] = imax;
   for (int i = 1; i <= n; i++)
   {
     cin >> x[i] >> h[i];
   }
-  int dp[3][n + 2];
-  dp[0][1] = 0;
-  dp[1][1] = 1;
-  dp[2][1] = 1;
+
+  int ans = 1;
   for (int i = 2; i <= n; i++)
   {
-    // i'th tree is standing
-    dp[0][i] = max(dp[0][i - 1], dp[1][i - 1]);
-    if (x[i - 1] + h[i - 1] < x[i])
-      dp[0][i] = max(dp[0][i], dp[2][i - 1]);
-
-    // i'th tree fell to right
-    dp[2][i] = 1 + max(dp[1][i - 1], dp[0][i - 1]);
-    if (x[i - 1] + h[i - 1] < x[i])
-      dp[2][i] = max(dp[2][i], dp[2][i - 1] + 1);
-
-    // i'th tree falls to left
-    dp[1][i] = dp[0][i];
     if (x[i] - h[i] > x[i - 1])
-      dp[1][i] = max(dp[1][i - 1] + 1, dp[0][i - 1] + 1);
-    if (x[i] - h[i] > x[i - 1] + h[i - 1])
-      dp[1][i] = max(dp[1][i], 1 + dp[2][i - 1]);
+    {
+      ans++;
+      continue;
+    }
+    if (x[i] + h[i] < x[i + 1])
+    {
+      ans++;
+      x[i] = x[i] + h[i];
+    }
   }
+  cout << ans;
 
-  cout << Max(dp[0][n], dp[1][n], dp[2][n]);
 
 
 
