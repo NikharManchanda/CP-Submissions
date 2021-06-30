@@ -74,7 +74,7 @@ signed main()
     vector<int> res;
     for (int i = 1; i <= n; i += x)
       res.pb(i);
-    int diff = n % x - k;
+    int diff = n - res[n / x] - k;
     if (diff <= 0) diff = 0;
 
     for (int i = 0; i < res.size(); i++)
