@@ -1,4 +1,20 @@
 {
+  "CF121502872": {
+    "contest_id": 615,
+    "language": "GNU C++17",
+    "path": "codeforces/615/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bulbs",
+    "problem_url": "https://codeforces.com/contest/615/problem/A",
+    "submission_id": "CF121502872",
+    "submission_url": "https://codeforces.com/contest/615/submission/121502872",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/06/2021 23:08"
+  },
   "CF121503325": {
     "contest_id": 415,
     "language": "GNU C++17",
