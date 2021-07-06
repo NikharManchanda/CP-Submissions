@@ -51,13 +51,45 @@ void setIO(string s)
 }
 /*--------------------------------------------------------------------------------------------------*/
 
+vector<int> v;
+void lucky()
+{
+  v.pb(4);
+  v.pb(7);
+  int r = 1;
+  vector<int> d;
+  d.pb(4);
+  d.pb(7);
+  for (int i = 10; i <= 1000000; i *= 10)
+  {
+    int x = 4 * i;
+    int y = 7 * i;
+    vector<int> e;
+    for (int j = 0; j < d.size(); j++)
+    {
+      e.pb(x + d[j]);
 
+    }
+    for (int j = 0; j < d.size(); j++)
+    {
+      e.pb(y + d[j]);
+    }
+    for (int f = 0; f < e.size(); f++)
+    {
+      v.pb(e[f]);
+    }
+    d.clear();
+    d = e;
+  }
+}
 signed main()
 {
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
 
   // setIO("swap");
+
+  lucky();
   int n;
   cin >> n;
   int a[n];
@@ -68,7 +100,7 @@ signed main()
     if (a[i] == -1)
     {
       int k = 0;
-      for (int j = i; j < n; j += 4)
+      for (int j = i; j < n; j += v[k])
       {
         a[j] = c;
       }
