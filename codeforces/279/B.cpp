@@ -1,61 +1,95 @@
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 using namespace std;
-typedef long long ll;
-#define mp make_pair
-#define pb push_back
-long long mod = 1000000007;
 
-/* -----------------------     CODE BELOW    ------------------------------------*/
+#define int               long long
+#define nl                "\n"
+#define pb                push_back
+#define ppb               pop_back
+#define pf                push_front
+#define ppf               pop_front
+#define all(x)            (x).begin(),(x).end()
+#define rall(x)           (x).rbegin(),(x).rend()
+#define uniq(v)           (v).erase(unique(all(v)),(v).end())
+#define sz(x)             (int)((x).size())
+#define fr                first
+#define sc                second
+#define pii               pair<int,int>
+#define rep(i,a,b)        for(int i=a;i<b;i++)
+#define mem1(a)           memset(a,-1,sizeof(a))
+#define mem0(a)           memset(a,0,sizeof(a))
+#define fix(prec)         {cout << setprecision(prec) << fixed;}
+#define lcm(a, b)         ((a) * (b)) / __gcd(a, b)
+#define rev               greater<int>()
+#define Max(x,y,z)        max(x,max(y,z))
+#define Min(x,y,z)        min(x,min(y,z))
+#define imin              INT_MIN
+#define imax              INT_MAX
+#define Yes               cout<<"Yes\n"
+#define No                cout<<"No\n"
+#define YES               cout<<"YES\n"
+#define NO                cout<<"NO\n"
+#define yes               cout<<"yes\n"
+#define no                cout<<"no\n"
+#define show(A) for (auto i: A) cout << i << " "; cout << '\n';
+#define endl "\n"
 
+using ld = long double;
+using vi = vector < int > ;
+using mi = map < int, int > ;
+using pi = pair < int, int > ;
 
+const double Pi = acos(-1.0);
+const int inf = 1e18 + 1;
+const int M = 1e9 + 7;
+const int MM = 998244353;
 
-int main()
+const int N = 2e5 + 5;
+
+int dx[8] = {1, 0, -1, 0, 1, 1, -1, -1};
+int dy[8] = {0, 1, 0, -1, -1, 1, 1, -1};
+
+template<typename T, typename T1>T amax(T &a, T1 b) {if (b > a)a = b; return a;}
+template<typename T, typename T1>T amin(T &a, T1 b) {if (b < a)a = b; return a;}
+/*----------------------------------------------------------------------------------------*/
+void setIO(string s)
 {
-  ios_base::sync_with_stdio(false);
-  cin.tie(NULL);
+    freopen((s + ".in").c_str(), "r", stdin);
+    freopen((s + ".out").c_str(), "w", stdout);
+}
+/*----------------------------------------------------------------------------------------*/
 
 
-  /*
-  #ifndef ONLINE_JUDGE
+signed main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    freopen("Ip-A.txt", "r", stdin);
-    freopen("Op-A.txt", "w", stdout);
+    // setIO("mountains");
 
-  #endif
-  */
-
-  long long int  n , t;
-  cin >> n >> t;
-  long long int  a[n + 1] {0}, p[n + 1] {0};
-  for (long long int i = 1; i <= n; i++)
-  {
-    cin >> a[i];
-    p[i] = p[i - 1] + a[i];
-  }
-  long long int  ans = INT_MIN;
-  for (long long int  i = 1; i <= n; i++)
-  {
-    long long int  k = p[i - 1] + t;
-
-    ll idx ;
-    if (binary_search(p, p + n + 1, k) == true)
+    int n, x;
+    cin >> n >> x;
+    int a[n];
+    for (int i = 0; i < n; i++)
     {
-      idx = lower_bound(p , p + n + 1, k) - p ;
-      idx++;
+        cin >> a[i];
     }
-    else
-      idx = lower_bound(p , p + n + 1, k) - p;
+    int r = 0;
+    int sum = 0;
+    int cmax = INT_MIN;
+    for (int l = 0; l < n; l++)
+    {
+        while (a[r] + sum <= x && r < n)
+        {
+            sum += a[r];
+            r++;
+        }
+        sum -= a[l];
+        cmax = max(cmax, r - l);
+    }
+    cout << cmax;
 
-    ans = max(ans, idx - i);
-    if (idx == n + 1)
-      break;
-  }
-  cout << ans;
 
-
-
-
-
-  return 0;
+    return 0;
 
 }
+
