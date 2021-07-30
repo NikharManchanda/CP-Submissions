@@ -10011,6 +10011,25 @@
     ],
     "timestamp": "Jul/29/2021 02:47"
   },
+  "CF124355364": {
+    "contest_id": 1555,
+    "language": "GNU C++17",
+    "path": "codeforces/1555/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Coin Rows",
+    "problem_url": "https://codeforces.com/contest/1555/problem/C",
+    "submission_id": "CF124355364",
+    "submission_url": "https://codeforces.com/contest/1555/submission/124355364",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Jul/30/2021 23:50"
+  },
   "CF124624372": {
     "contest_id": 63,
     "language": "GNU C++17",
