@@ -77,25 +77,19 @@ signed main()
         cin >> b[i];
     }
     sort(b, b + m);
-    sort(a, a + n);
     int ans = imin;
-    int r = 0;
-    for (int l = 0; l < n; l++)
+    for (int i = 0; i < n; i++)
     {
-        int left = imax, right = imax;
-        while (r < m && b[r] < a[l])
+        int x = imax, y = imax;
+        if (lower_bound(b, b + m, a[i]) != b + m)
+            x = abs(*lower_bound(b, b + m, a[i]) - a[i]);
+        if (lower_bound(b, b + m, a[i]) == b)
         {
-            r++;
+            y = abs(*lower_bound(b, b + m, a[i]) - a[i]);
         }
-        if (r < m)
-        {
-            right = b[r] - a[l];
-        }
-        if (r > 0)
-        {
-            left = a[l] - b[r - 1];
-        }
-        ans = max(ans, min(left, right));
+        else
+            y = abs(*(lower_bound(b, b + m, a[i]) - 1) - a[i]);
+        ans = max(ans, min(x, y));
     }
     cout << ans;
 
