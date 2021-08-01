@@ -2623,6 +2623,22 @@
     ],
     "timestamp": "Jul/20/2021 10:30"
   },
+  "AC24722072": {
+    "contest_id": "panasonic2020",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/panasonic2020/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Bishop",
+    "problem_url": "https://atcoder.jp/contests/panasonic2020/tasks/panasonic2020_b",
+    "submission_id": "AC24722072",
+    "submission_url": "https://atcoder.jp/contests/panasonic2020/submissions/24722072",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/01/2021 20:48"
+  },
   "CF100941510": {
     "contest_id": 158,
     "language": "GNU C++11",
