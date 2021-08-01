@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24723833": {
+    "contest_id": "abc160",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc160/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Traveling Salesman around Lake",
+    "problem_url": "https://atcoder.jp/contests/abc160/tasks/abc160_c",
+    "submission_id": "AC24723833",
+    "submission_url": "https://atcoder.jp/contests/abc160/submissions/24723833",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/02/2021 00:17"
+  },
   "AC24723943": {
     "contest_id": "agc014",
     "language": "C++ (GCC 9.2.1)",
