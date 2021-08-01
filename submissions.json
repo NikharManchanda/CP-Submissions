@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24723775": {
+    "contest_id": "abc157",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc157/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Bingo",
+    "problem_url": "https://atcoder.jp/contests/abc157/tasks/abc157_b",
+    "submission_id": "AC24723775",
+    "submission_url": "https://atcoder.jp/contests/abc157/submissions/24723775",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/02/2021 00:05"
+  },
   "AC24723833": {
     "contest_id": "abc160",
     "language": "C++ (GCC 9.2.1)",
