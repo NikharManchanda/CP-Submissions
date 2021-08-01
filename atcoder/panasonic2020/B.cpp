@@ -66,10 +66,12 @@ signed main()
 
     int h, w;
     cin >> h >> w;
+    int t = h * w;
     if (h == 1 || w == 1)
     {cout << 1; return 0;}
-
-    cout << (h * w + 1) / 2;
+    if (t % 2 != 0)
+        t++;
+    cout << t / 2;
 
 
     return 0;
