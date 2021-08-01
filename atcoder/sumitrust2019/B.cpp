@@ -67,17 +67,17 @@ signed main()
     double x;
     cin >> x;
 
-    double y = x / 1.08;
-    if (floor(floor(y) * 1.08) == x)
+    double a = (x * (100)) / 108;
+    for (int i = a - 10; i <= a + 100; i++)
     {
-        cout << floor(y);
+        double y = i * 1.08;
+        if (floor(y) == x)
+        {
+            cout << i;
+            return 0;
+        }
     }
-    else if (floor(floor(y + 1) * 1.08) == x )
-    {
-        cout << floor(y + 1);
-    }
-    else
-        cout << ":(";
+    cout << ":(";
 
 
     return 0;
