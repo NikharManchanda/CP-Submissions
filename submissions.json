@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24723943": {
+    "contest_id": "agc014",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc014/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Cookie Exchanges",
+    "problem_url": "https://atcoder.jp/contests/agc014/tasks/agc014_a",
+    "submission_id": "AC24723943",
+    "submission_url": "https://atcoder.jp/contests/agc014/submissions/24723943",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/02/2021 00:37"
+  },
   "AC24724149": {
     "contest_id": "abc161",
     "language": "C++ (GCC 9.2.1)",
