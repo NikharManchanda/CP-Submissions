@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24742340": {
+    "contest_id": "abc127",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc127/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Prison",
+    "problem_url": "https://atcoder.jp/contests/abc127/tasks/abc127_c",
+    "submission_id": "AC24742340",
+    "submission_url": "https://atcoder.jp/contests/abc127/submissions/24742340",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2021 03:15"
+  },
   "AC24742416": {
     "contest_id": "abc141",
     "language": "C++ (GCC 9.2.1)",
