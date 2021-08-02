@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24742751": {
+    "contest_id": "agc027",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/agc027/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Candy Distribution Again",
+    "problem_url": "https://atcoder.jp/contests/agc027/tasks/agc027_a",
+    "submission_id": "AC24742751",
+    "submission_url": "https://atcoder.jp/contests/agc027/submissions/24742751",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Aug/03/2021 04:09"
+  },
   "AC24742919": {
     "contest_id": "abc135",
     "language": "C++ (GCC 9.2.1)",
