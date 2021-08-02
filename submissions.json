@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24742919": {
+    "contest_id": "abc135",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc135/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "City Savers",
+    "problem_url": "https://atcoder.jp/contests/abc135/tasks/abc135_c",
+    "submission_id": "AC24742919",
+    "submission_url": "https://atcoder.jp/contests/abc135/submissions/24742919",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2021 04:33"
+  },
   "AC25245139": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
