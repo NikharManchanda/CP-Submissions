@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC24742416": {
+    "contest_id": "abc141",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc141/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Attack Survival",
+    "problem_url": "https://atcoder.jp/contests/abc141/tasks/abc141_c",
+    "submission_id": "AC24742416",
+    "submission_url": "https://atcoder.jp/contests/abc141/submissions/24742416",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Aug/03/2021 03:27"
+  },
   "AC24742669": {
     "contest_id": "abc149",
     "language": "C++ (GCC 9.2.1)",
