@@ -10011,6 +10011,22 @@
     ],
     "timestamp": "Jul/29/2021 02:47"
   },
+  "CF124884448": {
+    "contest_id": 288,
+    "language": "GNU C++17",
+    "path": "codeforces/288/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Polo the Penguin and Strings",
+    "problem_url": "https://codeforces.com/contest/288/problem/A",
+    "submission_id": "CF124884448",
+    "submission_url": "https://codeforces.com/contest/288/submission/124884448",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Aug/04/2021 22:16"
+  },
   "CF124889293": {
     "contest_id": 605,
     "language": "GNU C++17",
