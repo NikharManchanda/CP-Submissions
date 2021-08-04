@@ -145,7 +145,9 @@ signed main()
             }
             if (idx < 0)
             {
-                s = "1" + s;
+                reverse(all(s));
+                s.pb('1');
+                reverse(all(s));
             }
             else  if (s[idx] == '0')
             {
