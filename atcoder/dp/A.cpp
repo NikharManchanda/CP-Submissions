@@ -1,44 +1,145 @@
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 using namespace std;
-int dp[100001];
-int mincost(int a[],int idx,int n){
-  
-  if(dp[idx]!=-1){
-    return dp[idx];
+/*------------------------------------------------------------*/
+void __print(int x) {cerr << x;}
+void __print(long x) {cerr << x;}
+void __print(long long x) {cerr << x;}
+void __print(unsigned x) {cerr << x;}
+void __print(unsigned long x) {cerr << x;}
+void __print(unsigned long long x) {cerr << x;}
+void __print(float x) {cerr << x;}
+void __print(double x) {cerr << x;}
+void __print(long double x) {cerr << x;}
+void __print(char x) {cerr << '\'' << x << '\'';}
+void __print(const char *x) {cerr << '\"' << x << '\"';}
+void __print(const string &x) {cerr << '\"' << x << '\"';}
+void __print(bool x) {cerr << (x ? "true" : "false");}
+template<typename T, typename V>
+void __print(const pair<T, V> &x) {cerr << '{'; __print(x.first); cerr << ','; __print(x.second); cerr << '}';}
+template<typename T>
+void __print(const T &x) {int f = 0; cerr << '{'; for (auto &i : x) cerr << (f++ ? "," : ""), __print(i); cerr << "}";}
+void _print() {cerr << "]\n";}
+template <typename T, typename... V>
+void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v...);}
+#ifndef ONLINE_JUDGE
+#define debug(x...) cerr << "[" << #x << "] = ["; _print(x)
+#else
+#define debug(x...)
+#endif
+/*-----------------------------------------------------------*/
+struct custom_hash {
+  static uint64_t splitmix64(uint64_t x) {
+    x += 0x9e3779b97f4a7c15;
+    x = (x ^ (x >> 30)) * 0xbf58476d1ce4e5b9;
+    x = (x ^ (x >> 27)) * 0x94d049bb133111eb;
+    return x ^ (x >> 31);
   }
 
-  if(idx==0){
-    return dp[idx] = 0;
+  size_t operator()(uint64_t x) const {
+    static const uint64_t FIXED_RANDOM = chrono::steady_clock::now().time_since_epoch().count();
+    return splitmix64(x + FIXED_RANDOM);
   }
-  else if(idx==1){
-    return dp[idx] = mincost(a,idx-1,n) + abs(a[idx-1]-a[idx]);
+};
+struct hash_pair {
+  template <class T1, class T2>
+  size_t operator()(const pair<T1, T2>& p) const
+  {
+    auto hash1 = hash<T1> {}(p.first);
+    auto hash2 = hash<T2> {}(p.second);
+    return hash1 ^ hash2;
   }
-  else{
-    return dp[idx]= min(mincost(a,idx-1,n) + abs(a[idx]-a[idx-1]), mincost(a,idx-2,n) + abs(a[idx]-a[idx-2]));
-  }
+};
+/*------------------------------------------------------------------*/
+#define int               long long
+#define nl                "\n"
+#define pb                push_back
+#define ppb               pop_back
+#define pf                push_front
+#define ppf               pop_front
+#define all(x)            (x).begin(),(x).end()
+#define rall(x)           (x).rbegin(),(x).rend()
+#define uniq(v)           (v).erase(unique(all(v)),(v).end())
+#define sz(x)             (int)((x).size())
+#define fr                first
+#define sc                second
+#define pii               pair<int,int>
+#define rep(i,a,b)        for(int i=a;i<b;i++)
+#define mem1(a)           memset(a,-1,sizeof(a))
+#define mem0(a)           memset(a,0,sizeof(a))
+#define fix(prec)         {cout << setprecision(prec) << fixed;}
+#define lcm(a, b)         ((a) * (b)) / __gcd(a, b)
+#define rev               greater<int>()
+#define Max(x,y,z)        max(x,max(y,z))
+#define Min(x,y,z)        min(x,min(y,z))
+#define imin              INT_MIN
+#define imax              INT_MAX
+#define Yes               cout<<"Yes\n"
+#define No                cout<<"No\n"
+#define YES               cout<<"YES\n"
+#define NO                cout<<"NO\n"
+#define yes               cout<<"yes\n"
+#define no                cout<<"no\n"
+#define show(A) for (auto i: A) cout << i << " "; cout << '\n';
+#define endl "\n"
 
-}
+using ld = long double;
+using vi = vector < int > ;
+using mi = map < int, int > ;
+using pi = pair < int, int > ;
 
-int main()
+const double Pi = acos(-1.0);
+const int inf = 1e18 + 1;
+const int M = 1e9 + 7;
+const int MM = 998244353;
+
+const int N = 1e6 + 5;
+
+int dx[8] = {1, 0, -1, 0, 1, 1, -1, -1};
+int dy[8] = {0, 1, 0, -1, -1, 1, 1, -1};
+
+template<typename T, typename T1>T amax(T &a, T1 b) {if (b > a)a = b; return a;}
+template<typename T, typename T1>T amin(T &a, T1 b) {if (b < a)a = b; return a;}
+/*----------------------------------------------------------*/
+void setIO(string s)
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-     #ifndef ONLINE_JUDGE
- 
-        freopen("Ip-A.txt","r",stdin);
-        freopen("Op-A.txt","w",stdout);
- 
-     #endif
-    
-    int n;
-    cin>>n;
-    int arr[n];
-    memset(dp,-1,sizeof(dp));
-    for(int i=0;i<n;i++){
-      cin>>arr[i];
-    }
-    
-    cout<<mincost(arr,n-1,n)<<endl;
+  freopen((s + ".in").c_str(), "r", stdin);
+  freopen((s + ".out").c_str(), "w", stdout);
+}
+void local()
+{
+#ifndef ONLINE_JUDGE
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+#endif
+}
+void init()
+{
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
+  //setIO("swap");
+}
+/*--------------------------------------------------------*/
+signed main()
+{
+  init();
+  //local();
+  int n;
+  cin >> n;
+  int a[n];
+  for (int i = 0; i < n; i++)
+  {
+    cin >> a[i];
+  }
+  int dp[n];
+  dp[0] = 0;
+  dp[1] = abs(a[1] - a[0]);
+  for (int i = 2; i < n; i++)
+  {
+    dp[i] = min(dp[i - 1] + abs(a[i] - a[i - 1]), dp[i - 2] + abs(a[i] - a[i - 2]));
+  }
+  cout << dp[n - 1];
 
- return 0;
+
+  return 0;
+
 }
