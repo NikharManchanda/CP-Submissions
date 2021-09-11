@@ -2751,6 +2751,22 @@
     ],
     "timestamp": "Aug/01/2021 20:48"
   },
+  "AC25793070": {
+    "contest_id": "abc218",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc218/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Destruction",
+    "problem_url": "https://atcoder.jp/contests/abc218/tasks/abc218_e",
+    "submission_id": "AC25793070",
+    "submission_url": "https://atcoder.jp/contests/abc218/submissions/25793070",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Sep/11/2021 21:43"
+  },
   "AC25921618": {
     "contest_id": "abc219",
     "language": "C++ (GCC 9.2.1)",
